@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section.menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(sunset-1373171_1920.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 10vh;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.header-line {
+    height: 1px;
+    width: 94%;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.logo i {
+    font-size: 40px;
+}
+
+.menu-p {
+    display: flex;
+    align-items: center;
+}
+
+.menu-p p {
+
+    margin-right: 20px;
+}
+
+.home-main {
+    width: 96%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-main h3 {
+    font-size: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.home-main p {
+    font-size: 40px;
+    font-family: "Playwrite PE", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.home-main button {
+    padding: 10px 60px;
+    font-size: 25px;
+    margin-top: 60px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+/* about boshlandi */
+
+section.about-agency {
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(235, 234, 234);
+}
+
+.title .line {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    height: 6px;
+    background-color: rgb(0, 227, 129);
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.title h1 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-agency p:nth-of-type(1) {
+    color: rgb(92, 92, 92);
+    font-size: 25px;
+    margin-top: 70px;
+    width: 50%;
+}
+
+.about-agency img {
+    width: 300px;
+    margin: 70px 0 50px 0;
+}
+
+/* wedo boshlandi */
+
+section.wedo {
+    padding: 100px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    border: 2px solid rgb(0, 227, 129);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-in {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 227, 129);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-in i {
+    font-size: 30px;
+    color: white;
+}
+
+
+.block p {
+    font-size: 20px;
+    color: rgb(138, 138, 138);
+    font-family: "Playwrite PE";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* design boshlandi */
+
+section.design {
+    display: flex;
+    background-color: rgb(244, 244, 244);
+}
+
+.design-image {
+    width: 50%;
+}
+
+.design-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.design-text {
+    width: 35%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.t-line {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    height: 6px;
+    background-color: rgb(0, 227, 129);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.design-text p {
+    font-size: 20px;
+    font-family: "Playwrite PE";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 35px;
+    margin: 100px 0 40px 0;
+    color: rgb(101, 101, 101);
+}
+
+.design-circle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.design-circle .d-circle {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: rgb(0, 227, 129);
+    margin-right: 10px;
+}
+
+.design-circle .d-circle2 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 227, 129);
+}
+
+/* user boshlandi */
+
+section.user {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(3.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.user h3 {
+    text-align: center;
+    font-size: 45px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.user p {
+    font-size: 25px;
+    margin: 30px 0 50px 0;
+}
+
+/* work boshlandi */
+
+section.work {
+    padding: 100px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: 250px;
+}
+
+.work .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.work .card {
+    width: 29%;
+    text-align: center;
+}
+
+.work .cards .card p {
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+    margin: 45px 0;
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* watch boshlandi */
+
+section.watch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(7.jpg);
+    padding: 180px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.watch img {
+    width: 70px;
+    margin: 0 20px;
+}
+
+/* team boshlandi */
+
+section.team {
+    padding: 100px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-card {
+    width: 29%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card-title h2 {
+    font-size: 27px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 45px 0;
+}
+
+.team-card p {
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 45px 0;
+}
+
+.team-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.team-icon {
+    font-size: 30px;
+    background-color: rgb(0, 227, 129);
+    color: white;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title .card-line {
+    height: 3.5px;
+    width: 75px;
+    background-color: rgb(0, 227, 129);
+    margin: 0 auto;
+}
+
+
+/* Subscribe boshlandi */
+
+
+section.subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(4.jpg);
+    padding: 150px 0;
+    color: white;
+}
+
+.subscribe h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe form input {
+    padding: 15px 150px 15px 40px;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-right: 7px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.subscribe form button {
+    padding: 15px 90px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid white;
+    font-family: "Playwrite PE", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(137, 137, 137);
+}
+
+.subscribe form input::placeholder {
+    color: white;
+}
+
+/* drop boshlandi */
+
+section.drop{
+    padding: 100px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.drop-card{
+    width: 29%;
+    text-align: center;
+    background-color: white;
+    background-color: rgb(237, 237, 237);
+    padding: 50px 0;
+}
+
+.drop-card i{
+    color: rgb(0, 227, 129);
+    font-size: 30px;
+}
+
+.drop-card h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 32px 0;
+}
+
+.drop-line{
+    height: 3px;
+    width: 60px;
+    background-color: rgb(0, 227, 129);
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.drop-card p{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.drop-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    margin: 0 auto;
+}
+
+.drop-icon{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(0, 227, 129);
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Handcrafted boshlandi */
+
+section.handcrafted{
+    padding: 100px 0;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.handcrafted p{
+    font-size: 35px;
+    color: white;
+}
+
+section.handcrafted i{
+    font-size: 35px;
+    color: rgb(0, 227, 129);
+    margin: 0 10px;
+}

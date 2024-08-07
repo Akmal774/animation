@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn{
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid blue;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    margin: 10px;
+}
+
+.btn.btn-slide::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 255, 0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: 0.4s;
+    transform-origin: left;
+    z-index: -1;
+}
+
+.btn.btn-slide:hover::after{
+    transform: scaleX(1);
+}
+
+.btn.btn-slide{
+    z-index: 1;
+}
+
+.btn.btn-line::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to left,red,rgb(0, 255, 0),rgb(238, 255, 0));
+    height: 5px;
+    bottom: -10px;
+    transform: scaleX(0);
+    transition: 0.4s;
+    transform-origin: left;
+}
+
+.btn.btn-line:hover:before{
+    transform: scaleX(1);
+}
+
+.btn.btn-rgb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-image: linear-gradient(to left,blue,rgb(0, 255, 0),orange,rgb(238, 255, 0));
+    transition: 0.7s;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.btn.btn-rgb:hover::after{
+    transform: scale(1.5);
+}
+
+.btn.btn-rgb{
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn.btn-border::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 6px solid red;
+    z-index: -1;
+    transition: 0.2s;
+}
+
+.btn.btn-border:hover:before{
+    left: calc(4px * -2);
+    right: calc(4px * -2);
+    top: calc(4px * -2);
+    bottom: calc(4px * -2);
+    
+}

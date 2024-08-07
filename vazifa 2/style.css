@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-image:url(background2.jpg);
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover;
+    color: white;
+}
+
+.heater{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.SignIn button{
+    color: white;
+    padding: 5px 20px;
+    margin: 0 5px;
+}
+
+.SignIn button:nth-child(1){
+    background-color: transparent;
+}
+
+.SignIn button:nth-child(2){
+    background-color: red;
+    border: 1px solid red;
+}
+
+.home-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.text{
+    margin: 0 400px;
+}
+
+.text p:nth-child(1){
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.text p:nth-child(2){
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text p:nth-child(3){
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.EmailAddress input{
+    width: 55%;
+    padding: 12px 10px;
+    margin: 15px 0;
+}
+
+.EmailAddress button{
+    padding: 13px 30px;
+    background-color: red;
+    margin: 15px -5px; 
+    color: white;
+    border: 1px solid red;
+}

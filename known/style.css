@@ -1,0 +1,574 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section.known .header {
+    display: flex;
+    padding: 0 15%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    height: 10vh;
+    border-top: 6px solid rgb(0, 255, 170);
+}
+
+.known .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.known .header-left h3 {
+    font-size: 26px;
+}
+
+section.known .header-left ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+}
+
+.known .header-left ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 10vh;
+    font-weight: bold;
+}
+
+.known .header-left ul li:hover {
+    background-color: rgb(0, 255, 170);
+    color: white;
+    cursor: pointer;
+}
+
+.known .header .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.known .header .header-right .icon {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 255, 170);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 5px;
+}
+
+.known .header .header-right .icon i {
+    font-size: 14px;
+}
+
+.known .home-main {
+    background-image: url(ocean.png);
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: flex-start;
+    padding-left: 15%;
+}
+
+.known .home-main button {
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.known .home-main p {
+    font-size: 20px;
+    width: 55%;
+    margin: 20px 0;
+}
+
+.known .home-main h1 {
+    font-size: 45px;
+    width: 40%;
+}
+
+/* trending boshlandi */
+
+section.trending {
+    padding: 100px 15%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.t-block {
+    width: 27%;
+    border: 1px solid rgb(141, 141, 141);
+    padding: 50px 20px;
+}
+
+.t-block .number {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 0, 173);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.t-block h3 {
+    margin: 20px 0;
+}
+
+
+
+/* start boshlandi */
+
+section.start {
+    padding: 100px 15%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.form-content {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-content form {
+    width: 55%;
+}
+
+.form-content form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 10px;
+    outline: none;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.form-content form button {
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
+
+.form-text {
+    width: 50%;
+}
+
+.form-text h4 {
+    font-size: 22px;
+}
+
+.block-icon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 255, 170);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.text-block {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.block-text h5 {
+    font-size: 18px;
+}
+
+.block-text p {
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
+
+.block-text {
+    line-height: 22px;
+}
+
+/* Teacher boshlandi */
+
+section.teachers {
+    padding: 100px 15%;
+    background-color: rgb(232, 232, 232);
+}
+
+.title {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 28px;
+}
+
+.title p {
+    color: grey;
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.teach-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+
+.teach-card {
+    width: 23%;
+    background-color: white;
+
+}
+
+.card-text {
+    margin: 15px;
+}
+
+.card-text h4 {
+    font-size: 24px;
+}
+
+.card-text p {
+    font-size: 15px;
+    color: rgb(106, 106, 106);
+}
+
+.line {
+    height: 1.5px;
+    background-color: rgb(228, 228, 228);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    margin: 15px;
+}
+
+
+/* popular boshlandi */
+
+section.popular {
+    padding: 100px 15%;
+    background-color: rgb(227, 227, 227);
+}
+
+.popular-cards {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.popular-image img {
+    width: 100%;
+}
+
+.popular-image {
+    position: relative;
+}
+
+.position {
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    color: white;
+    left: 10px;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.position i {
+    margin: 0 3px 0 10px;
+}
+
+.popular-card {
+    width: 32%;
+    height: 400px;
+    background-color: white;
+}
+
+.popular-card .card-text p {
+    line-height: 22px;
+}
+
+.people img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.card-footer button {
+    padding: 7px 15px;
+    background-color: rgb(0, 255, 170);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.bottom p {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.popular-card:nth-child(2) .card-footer button {
+    background-color: blue;
+}
+
+/* Student boshlandi */
+
+section.student {
+    padding: 100px 15%;
+    background-color: rgb(231, 231, 231);
+    font-family: sans-serif;
+}
+
+.st-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.st-card {
+    width: 26%;
+    height: 250px;
+    background-color: white;
+    padding: 40px 30px;
+}
+
+.st-card .text p {
+    color: rgb(92, 92, 92);
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+}
+
+.pic img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.pic-text {
+    margin-left: 20px;
+}
+
+.pic-text p {
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+}
+
+.stars {
+    color: blue;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+    width: 2.5%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.circle {
+    height: 9px;
+    width: 9px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 100%;
+}
+
+.circle:nth-child(2) {
+    background-color: rgb(80, 80, 80);
+}
+
+/* contact us boshlandi */
+
+section.contact {
+    padding: 100px 15%;
+    display: flex;
+    background-color: rgb(102, 0, 255);
+    color: white;
+}
+
+.contact-text {
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.contact-text p {
+    margin: 5px 0 35px 0;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 400px;
+}
+
+.contact-image {
+    width: 50%;
+}
+
+.contact-text form input {
+    width: 90%;
+    padding: 12px;
+    outline: none;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact-text form textarea {
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 130px;
+    width: 90%;
+}
+
+.contact-text form button {
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
+
+/* head boshlandi */
+
+section.head {
+    display: flex;
+    padding: 100px 15%;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(21, 21, 21);
+    justify-content: space-between;
+}
+
+.head-card{
+    width: 28%;
+}
+
+.head h3{
+    font-size: 22px;
+}
+
+.head p{
+    color: grey;
+    font-size: 14px;
+}
+
+.head-card .icons i{
+    color: rgb(0, 255, 170);    
+}
+
+.head-card p{
+    line-height: 30px;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-card form input{
+    padding: 12px;
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.head-card form button {
+    background-color: transparent;
+    padding: 12px 50px;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 20px 0;
+}

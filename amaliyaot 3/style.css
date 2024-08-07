@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),url(3d-abstract-colorful-black-gold-gaming-wallpaper-with-sharp-edges.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+    justify-content: space-between;
+}
+
+.text{
+    width: 50%;
+}
+
+.form-content{
+    width: 40%;
+    border: 2px blue;
+    background-color: rgba(255,255,255,0.4);
+    padding: 30px 25px;
+}
+.text h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    width: 70%;
+    margin-top: 30px;
+}
+.text p{
+    line-height: 24px;
+    margin: 25px 0;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.buttons button:nth-child(1){
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid blue;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.buttons button:nth-child(2){
+    background-color:transparent;
+    color: blue;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid blue;
+    font-weight: bold;
+}
+.form-content h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+form input{
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+}
+form button{
+    width: 100%;
+    padding: 14px 0;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+}
+form input:nth-child(2){
+    margin: 15px 0;
+
+}
+.form-content form{
+    margin: 20px 0;
+}
+.form-content p{
+    text-align: center;
+}

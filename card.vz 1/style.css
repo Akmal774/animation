@@ -1,0 +1,97 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img img {
+    height: 88%;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 19px;
+    border-radius: 7px;
+}
+
+.card-img{
+    height: 200px;
+}
+
+.cards {
+    height: 80vh;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    height: 410px;
+    border-radius: 8px;
+    width: 28%;
+    font-family: sans-serif;
+    background-color: white;
+    box-shadow: 0px 0px 500px rgb(165, 165, 165);
+}
+
+.card-body {
+    height: 180px;
+    align-items: center;
+    width: 88%;
+}
+
+.card:nth-child(1) .card-text p:nth-child(1) {
+    background-color: rgb(255, 207, 245);
+    color: rgb(255, 0, 144);
+}
+
+.card:nth-child(2) .card-text p:nth-child(1) {
+    background-color: rgb(188, 227, 255);
+    color: rgb(0, 119, 255);
+}
+
+.card:nth-child(3) .card-text p:nth-child(1) {
+    background-color: rgb(189, 255, 186);
+    color: rgb(0, 189, 13);
+}
+
+.card .card-text p:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.card-text h3 {
+    margin: 25px 0 25px 0;
+    font-size: 20px;
+}
+
+.card-logo {
+    font-size: 35px;
+}
+
+.text {
+    height: 20vh;
+}
+
+.text p {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
