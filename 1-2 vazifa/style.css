@@ -536,6 +536,7 @@ section.handcrafted{
 section.handcrafted p{
     font-size: 35px;
     color: white;
+    font-family: sans-serif;
 }
 
 section.handcrafted i{
