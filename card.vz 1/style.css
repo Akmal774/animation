@@ -11,7 +11,7 @@ section {
 }
 
 .card-img img {
-    height: 88%;
+    height: 90%;
     width: 90%;
     display: flex;
     margin: 0 auto;
@@ -22,7 +22,7 @@ section {
 }
 
 .card-img{
-    height: 200px;
+    height: 230px;
 }
 
 .cards {
